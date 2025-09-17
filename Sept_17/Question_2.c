@@ -7,7 +7,7 @@ int factorial(int val) {
     if(val == 0) {
         return fact;
     } else {
-        return (val * factorial(--val));
+        return (val * factorial(val-1));
     }
 }
 
