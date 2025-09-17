@@ -1,4 +1,5 @@
 // Program to print tables without using multiplication
+// Check for the logical errors in this question
 #include <stdio.h>
 
 int add(int n) {
