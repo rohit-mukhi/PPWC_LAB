@@ -3,11 +3,13 @@
 #include <stdio.h>
 
 int main() {
-    int age, discount;
+    int year, age, discount;
     char c;
 
-    printf("Enter your age: ");
-    scanf("%d", &age);
+    printf("Enter your birth year: ");
+    scanf("%d", &year);
+
+    age = 2025 - year;
 
     if(age < 18) {
         printf("Not eligible\n");
@@ -17,7 +19,7 @@ int main() {
     } else if (age >30 && age <=40) {
         discount = 20;
     } else if (age > 40) {
-        discount = 40;
+        discount = 30;
     }
     
     printf("Tax discount for age %d is %d%%\n", age, discount);
