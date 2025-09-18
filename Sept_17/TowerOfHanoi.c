@@ -8,8 +8,10 @@ void TowerOfHanoi(int n, int a, int b, int c) {
     }
 }
 
-int main() {   
-    TowerOfHanoi(3, 1, 2, 3);
+int main() {
+    int num;
+    printf("Enter number of discs: ");
+    scanf("%d", &num);
+    TowerOfHanoi(num, 1, 2, 3);
     return 0;
 }
-
