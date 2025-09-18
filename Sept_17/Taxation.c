@@ -11,18 +11,17 @@ int main() {
 
     age = 2025 - year;
 
-    if(age < 18) {
+    if (age <= 0) {
+        printf("Invalid age\n");
+    } else if(age < 18 && age > 0) {
         printf("Not eligible\n");
-        return 0;
     } else if(age >= 18 && age <=30) {
-        discount = 10;
+        printf("Tax discount for age %d is 10%%\n", age);
     } else if (age >30 && age <=40) {
-        discount = 20;
+        printf("Tax discount for age %d is 20%%\n", age);
     } else if (age > 40) {
-        discount = 30;
+        printf("Tax discount for age %d is 30%%\n", age);    
     }
     
-    printf("Tax discount for age %d is %d%%\n", age, discount);
-
     return 0;
 }
