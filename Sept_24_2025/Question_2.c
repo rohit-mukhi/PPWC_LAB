@@ -1,6 +1,5 @@
 // Nested function can also be used, where just for checking if a charcater is vowel, separate function returning a value indicating true or false helps identify if a charcater is vowel.
 
-
 #include <stdio.h>
 
 void check(char ch) {
