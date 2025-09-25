@@ -45,7 +45,9 @@ int main() {
         case 'k': switch(unit) {
             case 'c': printf("%f celsius", (temperature+273));
                     break;
-            case 'k': printf("") 
+            case 'k': printf("%f", temperature);
+                    break;
+            case 'f': float val = 
         }
     }
 
