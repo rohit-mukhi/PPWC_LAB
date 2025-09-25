@@ -1,3 +1,5 @@
+// Reversing a number by recursion
+
 #include <stdio.h>
 
 int reverse(int num, int rev) {
