@@ -56,7 +56,7 @@ int main() {
     case 4:
         if(marks >= 41) {
             grade = 'E';
-        } else {
+        } else if (marks <= 40) {
             grade = 'F';
         }
         break;
